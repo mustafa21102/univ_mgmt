@@ -1,1 +1,18 @@
-
+{
+  "name": "university-management",
+  "version": "1.0.0",
+  "description": "University Management System Backend",
+  "main": "app.js", 
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "dotenv": "^10.0.0",
+    "sequelize": "^6.6.5",
+    "cors": "^2.8.5"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
